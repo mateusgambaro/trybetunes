@@ -1,0 +1,40 @@
+.album-card {
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+    width: 360px;
+  }
+  
+  .album-card img {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    max-height: 200px;
+    object-fit: contain;
+    width: 100%;
+  }
+  
+  .album-body {
+    padding: 10px 20px;
+  }
+  
+  .album-body > * {
+    color: #3e495c;
+  }
+  
+  @media ( max-width : 768px ) {
+  
+    .album-card {
+      width: 280px;
+    }
+  }
+  
+  @media ( max-width : 480px ) {
+  
+    .album-card {
+      width: 90%;
+    }
+  }
+  

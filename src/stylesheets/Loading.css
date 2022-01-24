@@ -1,0 +1,13 @@
+.loading {
+    color: #063031;
+    font-size: 1em;
+    min-height: 174px;
+    text-align: center;
+  }
+  
+  @media ( max-width : 768px ) {
+  
+    .loading {
+      font-size: 2em;
+    }
+  }

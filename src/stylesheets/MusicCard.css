@@ -1,0 +1,42 @@
+.track-card {
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .track {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    width: 100%;
+  }
+  
+  .track h3 {
+    color: #063031;
+    font-size: 1.2rem;
+  }
+  
+  @media ( max-width : 768px ) {
+  
+    .track-card {
+      margin: auto;
+      width: 90%;
+    }
+  
+    .track h3 {
+      font-size: 1rem;
+    }
+  }
+  
+  @media ( max-width : 425px ) {
+  
+    .track-card {
+      align-items: flex-start;
+    }
+  
+    .track {
+      flex-direction: column;
+    }
+  }

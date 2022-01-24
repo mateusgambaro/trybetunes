@@ -1,0 +1,54 @@
+.album-info {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .music-card {
+    margin-top: 100px;
+    width: 400px;
+  }
+  
+  .album-cover {
+    border-radius: 16px;
+    height: 150px;
+    width: 150px;
+  }
+  
+  .album-details {
+    color: #063031;
+    font-size: 1.2rem;
+    margin-top: 50px;
+    margin-right: 100px;
+  }
+  
+  @media ( max-width : 768px ) {
+  
+    .album-info {
+      flex-direction: column;
+    }
+  
+    .album-cover {
+      align-self: center;
+      display: flex;
+      justify-content: space-evenly;
+      margin: 20px 0;
+      width: 100%;
+    }
+  
+    .album-cover img {
+      height: 100px;
+      width: 100px;
+    }
+  
+    .album-details {
+      font-size: 1rem;
+    }
+  }
+  
+  @media ( max-width : 425px ) {
+  
+    .album-cover {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
