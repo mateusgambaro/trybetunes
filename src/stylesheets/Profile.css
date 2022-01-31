@@ -1,0 +1,106 @@
+.profilePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.profilePage img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.profilePage .Link {
+  margin-top: 20px;
+  text-decoration: none;
+  color: black;
+  background-color: rgba(128, 128, 128, 0.336);
+  padding: 2px 6px;
+  border-radius: 20px;
+}
+
+.profileName {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.profileEmail {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.profileEdit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileEdit form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.profileEdit form input {
+  width: 300px;
+  height: 25px;
+  text-align: center;
+  margin-top: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.151);
+}
+
+.profileEdit form button {
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: rgb(0, 190, 102);
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.profileEdit form button:disabled {
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: rgb(153, 153, 153);
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.profileEdit form label {
+  display: flex;
+  align-items: center;
+}
+
+.profileEdit form textarea {
+  width: 200px;
+  max-width: 200px;
+  height: 50px;
+  min-height: 50px;
+  max-height: 80px;
+  text-align: center;
+  margin-top: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.151);
+}
+
+.profileEdit form label p {
+  width: 80px;
+}
+
+.profileButton {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 2px 8px;
+  border-radius: 15px;
+}
